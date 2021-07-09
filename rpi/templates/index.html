@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+<img src="{{url_for('static', filename='rpi.png')}}" alt="Raspberry Pi" width="600" height="300"/><br><br>
+<h1 class="title">Strona urządzenia {{name}}</h1>
+{% endblock %}

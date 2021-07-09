@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="subtitle">Proszę podać dane logowania</h2>
+<form action="{{route}}">
+    <label for="id">ID:</label><br>
+    <input type="text" id="id" name="id"><br>
+    <label for="pass">Hasło:</label><br>
+    <input type="text" id="pass" name="pass"><br><br>
+    <input type="submit" value="Załaduj"><br>
+</form>
+{% endblock %}

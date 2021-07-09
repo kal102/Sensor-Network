@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="subtitle">Ładowaniu plików do katalogu</h2>
+<form method="POST" enctype="multipart/form-data" action="{{request.path}}?id={{name}}&pass={{password}}">
+    <input type="file" name="file[]" multiple="">
+    <input type="submit" value="Załaduj">
+</form>
+</br></br>
+
+<h2 class="subtitle">Zawartość aktualnego katalogu</h2>
+{% for file in files %}
+<a href="{{ (request.path + '/' if request.path != '/' else '') + file + '?id=' + name + '&pass=' + password}}">
+    {{ file }}
+</a></br>
+{% endfor %}
+{% endblock %}

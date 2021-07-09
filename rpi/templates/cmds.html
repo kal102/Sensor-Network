@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="subtitle">Wyślij komendę do urządzenia</h2>
+<form action="/cmds?id={{name}}&pass={{password}}" method="POST">
+    <input type="text" id="cmd" name="cmd">
+    <input type="submit" value="Wyślij">
+</form>
+</br></br>
+
+<h2 class="subtitle">Lista komend urządzenia</h2>
+<ul>
+    <li>stop_data  - zatrzymaj wysyłanie danych</li>
+    <li>start_data - wznów wysyłanie danych</li>
+    <li>clear_data - wyczyść kolejkę z danymi</li>
+    <li>save_cfg   - zapisz aktualną konfigurację</li> 
+    <li>load_cfg   - odczytaj oryginalną konfigurację</li>
+    <li>clear_log  - wyczyść plik logu</li>
+    <li>restart    - zrestartuj program</li>
+</ul>
+{% endblock %}

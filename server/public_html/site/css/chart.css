@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+chartContainer {
+    height: 500px;
+    max-width: 960px;
+    margin: 0px auto;
+    background-color: grey,
+}
+
+#chart_table {
+    width:800px;
+    margin:auto;
+}

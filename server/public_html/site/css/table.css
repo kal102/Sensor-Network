@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#chart_table {
+    width:800px;
+    margin:auto;
+}
+
+p {
+    width:400px;
+    margin:auto;
+}
+
+#latest-results {
+    margin:auto;
+    margin-top: 50px;
+}
+
+th {
+    width:200px;
+    text-align:center;
+    margin: 0px;
+}
+
+table {
+    margin: auto;
+}
+
+th, tr, td, table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    color: black;
+}
+
+td {
+    height: 23px;
+    text-align: center;
+}

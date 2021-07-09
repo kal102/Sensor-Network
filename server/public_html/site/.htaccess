@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Wymagane dane logowania"
+AuthUserFile /home/eaiibgrp/lkalina/config/.htpasswd
+Require valid-user

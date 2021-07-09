@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 800px;
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+  }
