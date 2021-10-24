@@ -12,8 +12,8 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/table.css" rel="stylesheet" />
         <!-- Scripts-->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     </head>
     <body>
         <!-- Responsive navbar-->

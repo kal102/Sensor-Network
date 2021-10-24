@@ -12,10 +12,10 @@
         <link href="css/styles.css" rel="stylesheet" />
 		<link href="css/map.css" rel="stylesheet" />
         <!-- Scripts-->
-        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
-        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+        <script src="//canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	</head>
 	<body>
         <!-- Responsive navbar-->
